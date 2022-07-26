@@ -38,7 +38,7 @@
       "get": {
         "x-ms-examples": {
           "Get all queries.": {
-            "$ref": "./examples/assistedQueriess/GetQueries.json"
+            "$ref": "./examples/assistedQueries/GetQueries.json"
           }
         },
         "tags": [
@@ -83,7 +83,7 @@
       "get": {
         "x-ms-examples": {
           "Get a query.": {
-            "$ref": "./examples/assistedQueriess/GetQueryById.json"
+            "$ref": "./examples/assistedQueries/GetQueryById.json"
           }
         },
         "tags": [
@@ -126,7 +126,7 @@
       "delete": {
         "x-ms-examples": {
           "Delete a query.": {
-            "$ref": "./examples/assistedQueriess/DeleteQuery.json"
+            "$ref": "./examples/assistedQueries/DeleteQuery.json"
           }
         },
         "tags": [
@@ -175,7 +175,7 @@
       "put": {
         "x-ms-examples": {
           "Creates or updates a query.": {
-            "$ref": "./examples/assistedQueriess/CreateQuery.json"
+            "$ref": "./examples/assistedQueries/CreateQuery.json"
           }
         },
         "tags": [
@@ -235,7 +235,7 @@
       "get": {
         "x-ms-examples": {
           "Get all edited queries.": {
-            "$ref": "./examples/assistedQueriess/GetEditedQueries.json"
+            "$ref": "./examples/assistedQueries/GetEditedQueries.json"
           }
         },
         "tags": [
@@ -283,7 +283,7 @@
       "get": {
         "x-ms-examples": {
           "Get an edited query.": {
-            "$ref": "./examples/assistedQueriess/GetEditedQueryById.json"
+            "$ref": "./examples/assistedQueries/GetEditedQueryById.json"
           }
         },
         "tags": [
@@ -329,7 +329,7 @@
       "delete": {
         "x-ms-examples": {
           "Delete an edited query.": {
-            "$ref": "./examples/assistedQueriess/DeleteEditedQuery.json"
+            "$ref": "./examples/assistedQueries/DeleteEditedQuery.json"
           }
         },
         "tags": [
@@ -375,7 +375,7 @@
       "put": {
         "x-ms-examples": {
           "Creates or updates an edited query.": {
-            "$ref": "./examples/assistedQueriess/CreateEditedQuery.json"
+            "$ref": "./examples/assistedQueries/CreateEditedQuery.json"
           }
         },
         "tags": [
