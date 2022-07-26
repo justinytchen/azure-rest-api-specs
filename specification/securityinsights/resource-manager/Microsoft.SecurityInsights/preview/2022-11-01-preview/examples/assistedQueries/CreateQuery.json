@@ -22,10 +22,10 @@
         "systemData": {
           "createdAt": "2022-07-19T01:26:18.3800276Z",
           "createdBy": "john@contoso.com",
-          "createdByType": "user",
+          "createdByType": "User",
           "lastModifiedAt": "2022-07-19T01:26:18.3800509Z",
           "lastModifiedBy": "john@contoso.com",
-          "lastModifiedByType": "user"
+          "lastModifiedByType": "User"
         },
         "properties": {
           "queryId": "d0cfe6b2-9ac0-0000-9919-dccaee2e4123",
@@ -45,10 +45,10 @@
         "systemData": {
           "createdAt": "2022-07-19T01:26:18.3800276Z",
           "createdBy": "john@contoso.com",
-          "createdByType": "user",
+          "createdByType": "User",
           "lastModifiedAt": "2022-07-19T01:26:18.3800509Z",
           "lastModifiedBy": "john@contoso.com",
-          "lastModifiedByType": "user"
+          "lastModifiedByType": "User"
         },
         "properties": {
           "queryId": "d0cfe6b2-9ac0-0000-9919-dccaee2e4123",

@@ -18,10 +18,10 @@
             "systemData": {
               "createdAt": "2022-06-24T00:12:26.4374731Z",
               "createdBy": "john@contoso.com",
-              "createdByType": "user",
+              "createdByType": "User",
               "lastModifiedAt": "2022-06-24T00:12:26.4376594Z",
               "lastModifiedBy": "john@contoso.com",
-              "lastModifiedByType": "user"
+              "lastModifiedByType": "User"
             },
             "properties": {
               "queryId": "d0cfe6b2-9ac0-0000-9919-dccaee2e4123",
