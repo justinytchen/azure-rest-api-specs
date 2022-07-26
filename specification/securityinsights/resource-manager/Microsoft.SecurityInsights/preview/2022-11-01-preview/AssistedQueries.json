@@ -561,48 +561,48 @@
       "description": "Describes Edited Query properties",
       "properties": {
         "queryId": {
-            "description": "The id (a Guid) of the query",
-            "type": "string"
+          "description": "The id (a Guid) of the query",
+          "type": "string"
         },
         "editedQueryId": {
-            "description": "The id (a Guid) of the edited query",
-            "type": "string"
+          "description": "The id (a Guid) of the edited query",
+          "type": "string"
         },
         "correlationId": {
-            "description": "The id (a Guid) of the correlationId",
-            "type": "string"
+          "description": "The id (a Guid) of the correlationId",
+          "type": "string"
         },
         "kustoQueryLanguage": {
-            "description": "the kusto query for a natural language",
-            "type": "string"
+          "description": "the kusto query for a natural language",
+          "type": "string"
         },
         "created": {
-            "description": "The time the edited query was created",
-            "format": "date-time",
-            "type": "string"
+          "description": "The time the edited query was created",
+          "format": "date-time",
+          "type": "string"
         },
         "updated": {
-            "description": "The last time the edited query was updated",
-            "format": "date-time",
-            "type": "string"
+          "description": "The last time the edited query was updated",
+          "format": "date-time",
+          "type": "string"
         },
         "createdBy": {
-            "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-            "description": "Describes a user that created the edited query",
-            "type": "object"
+          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
+          "description": "Describes a user that created the edited query",
+          "type": "object"
         },
         "updatedBy": {
-            "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-            "description": "Describes a user that updated the edited query",
-            "type": "object"
+          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
+          "description": "Describes a user that updated the edited query",
+          "type": "object"
         },
         "documentType": {
-            "description": "A type of the document (is 'assistedQuery')",
-            "type": "string"
+          "description": "A type of the document (is 'assistedQuery')",
+          "type": "string"
         },
         "executionResult": {
-            "description": "The result of the execution to get kusto query from  natural language input",
-            "type": "string"
+          "description": "The result of the execution to get kusto query from  natural language input",
+          "type": "string"
         }
       },
       "required": [

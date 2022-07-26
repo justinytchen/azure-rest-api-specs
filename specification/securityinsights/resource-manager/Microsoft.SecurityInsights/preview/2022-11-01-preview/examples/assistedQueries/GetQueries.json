@@ -28,7 +28,7 @@
               "correlationId": "77e4fc3d-9028-4bf2-8b3a-839a7e6dfc04",
               "naturalLanguage": "get top 10 users",
               "kustoQueryLanguage": "imNetworkSession\n| where TimeGenerated > ago(1d)\n| summarize distinct_machines = dcount(DvcHostname) by User\n| sort by distinct_machines desc\n| take 10\n",
-				      "documentType": "assistedQuery"
+              "documentType": "assistedQuery"
             }
           }
         ]
