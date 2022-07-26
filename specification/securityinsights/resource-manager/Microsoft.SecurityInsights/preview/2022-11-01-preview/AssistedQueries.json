@@ -486,26 +486,6 @@
           "description": "the kusto query for a natural language",
           "type": "string"
         },
-        "created": {
-          "description": "The time the query was created",
-          "format": "date-time",
-          "type": "string"
-        },
-        "updated": {
-          "description": "The last time the query was updated",
-          "format": "date-time",
-          "type": "string"
-        },
-        "createdBy": {
-          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-          "description": "Describes a user that created the query",
-          "type": "object"
-        },
-        "updatedBy": {
-          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-          "description": "Describes a user that updated the query",
-          "type": "object"
-        },
         "documentType": {
           "description": "A type of the document (is 'assistedQuery')",
           "type": "string"
@@ -575,26 +555,6 @@
         "kustoQueryLanguage": {
           "description": "the kusto query for a natural language",
           "type": "string"
-        },
-        "created": {
-          "description": "The time the edited query was created",
-          "format": "date-time",
-          "type": "string"
-        },
-        "updated": {
-          "description": "The last time the edited query was updated",
-          "format": "date-time",
-          "type": "string"
-        },
-        "createdBy": {
-          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-          "description": "Describes a user that created the edited query",
-          "type": "object"
-        },
-        "updatedBy": {
-          "$ref": "../../../common/2.0/types.json#/definitions/UserInfo",
-          "description": "Describes a user that updated the edited query",
-          "type": "object"
         },
         "documentType": {
           "description": "A type of the document (is 'assistedQuery')",
