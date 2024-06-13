@@ -2999,6 +2999,98 @@
       },
       "description": "Describes the status and behavior of a service."
     },
+    "FirmwareProfile": {
+      "type": "object",
+      "properties": {
+        "serialNumber": {
+          "type": "string",
+          "description": "The serial number of the firmware"
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of the firmware"
+        }
+      },
+      "description": "Describes the firmware of the machine"
+    },
+    "HardwareProfile": {
+      "type": "object",
+      "properties": {
+        "totalPhysicalMemoryInBytes": {
+          "type": "int64",
+          "description": "The total physical memory on the machine"
+        },
+        "processors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Processor"
+          },
+          "description": "The physical processors of the machine."
+        }
+      },
+      "description": "Describes the hardware of the machine"
+    },
+    "Processor": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The name of the processor."
+        },
+        "numberOfCores": {
+          "type": "int64",
+          "description": "The total number of physical cores on the processor."
+        }
+      },
+      "description": "Describes the firmware of the machine"
+    },
+    "StorageProfile": {
+      "type": "object",
+      "properties": {
+        "processors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Disk"
+          },
+          "description": "The disks on the machine."
+        }
+      },
+      "description": "Describes the storage configuration of the machine"
+    },
+    "Disk": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "description": "The path of the disk."
+        },
+        "type": {
+          "type": "string",
+          "description": "The type of the disk."
+        },
+        "generatedId": {
+          "type": "string",
+          "description": "The generated ID of the disk."
+        },
+        "id": {
+          "type": "string",
+          "description": "The ID of the disk."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the disk."
+        },
+        "maxSizeInBytes": {
+          "type": "int64",
+          "description": "The size of the disk, in bytes"
+        },
+        "usedSpaceInBytes": {
+          "type": "int64",
+          "description": "The amount of space used on the disk, in bytes"
+        }
+      },
+      "description": "Describes a disk on the machine"
+    },
     "CloudMetadata": {
       "type": "object",
       "properties": {
@@ -3108,6 +3200,18 @@
         "serviceStatuses": {
           "$ref": "#/definitions/ServiceStatuses",
           "description": "Statuses of dependent services that are reported back to ARM."
+        },
+        "hardwareProfile": {
+          "$ref": "#/definitions/HardwareProfile",
+          "description": "Information about the machine's hardware"
+        },
+        "storageProfile": {
+          "$ref": "#/definitions/StorageProfile",
+          "description": "Information about the machine's storage"
+        },
+        "firmwareProfile": {
+          "$ref": "#/definitions/FirmwareProfile",
+          "description": "Information about the machine's firmware"
         },
         "cloudMetadata": {
           "$ref": "#/definitions/CloudMetadata",
@@ -4370,6 +4474,18 @@
       "type": "object",
       "readOnly": true,
       "properties": {
+        "macAddress": {
+          "type": "string",
+          "description": "Represents MAC address of the network interface."
+        },
+        "id": {
+          "type": "string",
+          "description": "Represents the ID of the network interface."
+        },
+        "name": {
+          "type": "string",
+          "description": "Represents the name of the network interface."
+        },
         "ipAddresses": {
           "type": "array",
           "items": {
